@@ -1,0 +1,53 @@
+adaptive-icon;obj\Debug\90\res\mipmap-anydpi-v26\ic_launcher.xml
+adaptive-icon;obj\Debug\90\res\mipmap-anydpi-v26\ic_launcher_round.xml
+android.support.v4.view.ViewPager;obj\Debug\90\res\layout\image_view.xml
+android.support.v7.widget.CardView;obj\Debug\90\res\layout\data.xml
+android.support.v7.widget.CardView;obj\Debug\90\res\layout\item.xml
+android.support.v7.widget.RecyclerView;obj\Debug\90\res\layout\activity_main.xml
+android.support.v7.widget.RecyclerView;obj\Debug\90\res\layout\data.xml
+background;obj\Debug\90\res\mipmap-anydpi-v26\ic_launcher.xml
+background;obj\Debug\90\res\mipmap-anydpi-v26\ic_launcher_round.xml
+bitmap;obj\Debug\90\res\drawable\splash_background.xml
+Button;obj\Debug\90\res\layout\activity_login.xml
+cache-path;G:\Hoc Tap\Xamarin\MagicApp\MagicApp\obj\Debug\90\lp\36\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+color;obj\Debug\90\res\values\colors.xml
+color;obj\Debug\90\res\values\ic_launcher_background.xml
+corners;obj\Debug\90\res\drawable\rectange_delete.xml
+dimen;obj\Debug\90\res\values\dimens.xml
+external-cache-path;G:\Hoc Tap\Xamarin\MagicApp\MagicApp\obj\Debug\90\lp\36\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+external-path;G:\Hoc Tap\Xamarin\MagicApp\MagicApp\obj\Debug\90\lp\36\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+foreground;obj\Debug\90\res\mipmap-anydpi-v26\ic_launcher.xml
+foreground;obj\Debug\90\res\mipmap-anydpi-v26\ic_launcher_round.xml
+GridLayout;obj\Debug\90\res\layout\activity_login.xml
+ImageView;obj\Debug\90\res\layout\item.xml
+ImageView;obj\Debug\90\res\layout\item_image_view.xml
+integer-array;obj\Debug\90\res\values\strings.xml
+item;obj\Debug\90\res\drawable\splash_background.xml
+item;obj\Debug\90\res\values\strings.xml
+item;obj\Debug\90\res\values\styles.xml
+layer-list;obj\Debug\90\res\drawable\splash_background.xml
+LinearLayout;obj\Debug\90\res\layout\activity_login.xml
+LinearLayout;obj\Debug\90\res\layout\activity_main.xml
+LinearLayout;obj\Debug\90\res\layout\data.xml
+LinearLayout;obj\Debug\90\res\layout\item_image_view.xml
+paths;G:\Hoc Tap\Xamarin\MagicApp\MagicApp\obj\Debug\90\lp\36\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+RelativeLayout;obj\Debug\90\res\layout\activity_login.xml
+RelativeLayout;obj\Debug\90\res\layout\image_view.xml
+resources;obj\Debug\90\res\values\colors.xml
+resources;obj\Debug\90\res\values\dimens.xml
+resources;obj\Debug\90\res\values\ic_launcher_background.xml
+resources;obj\Debug\90\res\values\strings.xml
+resources;obj\Debug\90\res\values\styles.xml
+shape;obj\Debug\90\res\drawable\circle_drawable.xml
+shape;obj\Debug\90\res\drawable\circle_selected.xml
+shape;obj\Debug\90\res\drawable\rectange_delete.xml
+size;obj\Debug\90\res\drawable\rectange_delete.xml
+solid;obj\Debug\90\res\drawable\circle_selected.xml
+solid;obj\Debug\90\res\drawable\rectange_delete.xml
+string;obj\Debug\90\res\values\strings.xml
+stroke;obj\Debug\90\res\drawable\circle_drawable.xml
+style;obj\Debug\90\res\values\styles.xml
+TextView;obj\Debug\90\res\layout\activity_login.xml
+TextView;obj\Debug\90\res\layout\activity_main.xml
+TextView;obj\Debug\90\res\layout\data.xml
+View;obj\Debug\90\res\layout\activity_login.xml

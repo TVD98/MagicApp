@@ -1,0 +1,74 @@
+adaptive-icon;obj\Debug\100\res\mipmap-anydpi-v26\ic_launcher.xml
+adaptive-icon;obj\Debug\100\res\mipmap-anydpi-v26\ic_launcher_round.xml
+androidx.cardview.widget.CardView;obj\Debug\100\res\layout\item_album.xml
+androidx.cardview.widget.CardView;obj\Debug\100\res\layout\item_collection.xml
+androidx.cardview.widget.CardView;obj\Debug\100\res\layout\item_data.xml
+androidx.cardview.widget.CardView;obj\Debug\100\res\layout\item_image.xml
+androidx.recyclerview.widget.RecyclerView;obj\Debug\100\res\layout\activity_upload_images.xml
+androidx.recyclerview.widget.RecyclerView;obj\Debug\100\res\layout\fragment_album.xml
+androidx.recyclerview.widget.RecyclerView;obj\Debug\100\res\layout\fragment_collection.xml
+androidx.recyclerview.widget.RecyclerView;obj\Debug\100\res\layout\item_collection.xml
+androidx.recyclerview.widget.RecyclerView;obj\Debug\100\res\layout\item_data.xml
+androidx.viewpager.widget.ViewPager;obj\Debug\100\res\layout\activity_main.xml
+androidx.viewpager.widget.ViewPager;obj\Debug\100\res\layout\activity_show_image.xml
+background;obj\Debug\100\res\mipmap-anydpi-v26\ic_launcher.xml
+background;obj\Debug\100\res\mipmap-anydpi-v26\ic_launcher_round.xml
+bitmap;obj\Debug\100\res\drawable\splash_background.xml
+Button;obj\Debug\100\res\layout\activity_login.xml
+Button;obj\Debug\100\res\layout\activity_upload_images.xml
+Button;obj\Debug\100\res\layout\fragment_album.xml
+cache-path;G:\Hoc Tap\Xamarin\MagicApp\MagicApp\obj\Debug\100\lp\46\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+color;obj\Debug\100\res\values\colors.xml
+color;obj\Debug\100\res\values\ic_launcher_background.xml
+com.google.android.material.tabs.TabLayout;obj\Debug\100\res\layout\activity_main.xml
+corners;obj\Debug\100\res\drawable\rectange_delete.xml
+dimen;obj\Debug\100\res\values\dimens.xml
+external-cache-path;G:\Hoc Tap\Xamarin\MagicApp\MagicApp\obj\Debug\100\lp\46\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+external-path;G:\Hoc Tap\Xamarin\MagicApp\MagicApp\obj\Debug\100\lp\46\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+foreground;obj\Debug\100\res\mipmap-anydpi-v26\ic_launcher.xml
+foreground;obj\Debug\100\res\mipmap-anydpi-v26\ic_launcher_round.xml
+FrameLayout;obj\Debug\100\res\layout\activity_show_image.xml
+GridLayout;obj\Debug\100\res\layout\activity_login.xml
+ImageButton;obj\Debug\100\res\layout\fragment_properties.xml
+ImageView;obj\Debug\100\res\layout\item_album.xml
+ImageView;obj\Debug\100\res\layout\item_image.xml
+integer-array;obj\Debug\100\res\values\strings.xml
+item;G:\Hoc Tap\Xamarin\MagicApp\MagicApp\obj\Debug\100\lp\3\jl\res\values\values.xml
+item;obj\Debug\100\res\drawable\splash_background.xml
+item;obj\Debug\100\res\values\strings.xml
+item;obj\Debug\100\res\values\styles.xml
+layer-list;obj\Debug\100\res\drawable\splash_background.xml
+LinearLayout;obj\Debug\100\res\layout\activity_login.xml
+LinearLayout;obj\Debug\100\res\layout\activity_main.xml
+LinearLayout;obj\Debug\100\res\layout\activity_upload_images.xml
+LinearLayout;obj\Debug\100\res\layout\fragment_album.xml
+LinearLayout;obj\Debug\100\res\layout\fragment_collection.xml
+LinearLayout;obj\Debug\100\res\layout\fragment_properties.xml
+LinearLayout;obj\Debug\100\res\layout\frament_toolbar.xml
+LinearLayout;obj\Debug\100\res\layout\item_album.xml
+LinearLayout;obj\Debug\100\res\layout\item_collection.xml
+LinearLayout;obj\Debug\100\res\layout\item_data.xml
+paths;G:\Hoc Tap\Xamarin\MagicApp\MagicApp\obj\Debug\100\lp\46\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+RelativeLayout;obj\Debug\100\res\layout\activity_login.xml
+RelativeLayout;obj\Debug\100\res\layout\activity_show_image.xml
+resources;G:\Hoc Tap\Xamarin\MagicApp\MagicApp\obj\Debug\100\lp\3\jl\res\values\values.xml
+resources;obj\Debug\100\res\values\colors.xml
+resources;obj\Debug\100\res\values\dimens.xml
+resources;obj\Debug\100\res\values\ic_launcher_background.xml
+resources;obj\Debug\100\res\values\strings.xml
+resources;obj\Debug\100\res\values\styles.xml
+shape;obj\Debug\100\res\drawable\circle_drawable.xml
+shape;obj\Debug\100\res\drawable\circle_selected.xml
+shape;obj\Debug\100\res\drawable\rectange_delete.xml
+size;obj\Debug\100\res\drawable\rectange_delete.xml
+solid;obj\Debug\100\res\drawable\circle_selected.xml
+solid;obj\Debug\100\res\drawable\rectange_delete.xml
+string;obj\Debug\100\res\values\strings.xml
+string-array;obj\Debug\100\res\values\strings.xml
+stroke;obj\Debug\100\res\drawable\circle_drawable.xml
+style;obj\Debug\100\res\values\styles.xml
+TextView;obj\Debug\100\res\layout\activity_login.xml
+TextView;obj\Debug\100\res\layout\item_album.xml
+TextView;obj\Debug\100\res\layout\item_collection.xml
+TextView;obj\Debug\100\res\layout\item_data.xml
+View;obj\Debug\100\res\layout\activity_login.xml

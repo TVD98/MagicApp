@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+  <string name="app_name">Bộ sưu tập</string>
+  <string name="action_settings">Settings</string>
+  <string name="title_collection">Ảnh</string>
+  <string name="transition_name">transition_name</string>
+  <string name="label_title_login">Sử dụng mật khẩu</string>
+  <string name="label_1">1</string>
+  <string name="label_2">2</string>
+  <string name="label_3">3</string>
+  <string name="label_4">4</string>
+  <string name="label_5">5</string>
+  <string name="label_6">6</string>
+  <string name="label_7">7</string>
+  <string name="label_8">8</string>
+  <string name="label_9">9</string>
+  <string name="label_0">0</string>
+  <string name="label_delete">Xóa</string>
+  <string name="label_description_1"></string>
+  <string name="label_description_2">ABC</string>
+  <string name="label_description_3">DEF</string>
+  <string name="label_description_4">GHI</string>
+  <string name="label_description_5">JKL</string>
+  <string name="label_description_6">MNO</string>
+  <string name="label_description_7">PQRS</string>
+  <string name="label_description_8">TUV</string>
+  <string name="label_description_9">WXYZ</string>
+  <string name="label_description_0"></string>
+  <string name="label_description_ok"></string>
+  <string name="label_description_delete"></string>
+
+  <integer-array name="title_date">
+    <item>0</item>
+    <item>3</item>
+    <item>4</item>
+    <item>7</item>
+    <item>9</item>
+    <item>15</item>
+    <item>20</item>
+    <item>17</item>
+    <item>23</item>
+    <item>24</item>
+    <item>27</item>
+    <item>49</item>
+    <item>50</item>
+    <item>65</item>
+    <item>70</item>
+  </integer-array>
+
+  <integer-array name="item_count">
+    <item>1</item>
+    <item>3</item>
+    <item>7</item>
+    <item>3</item>
+    <item>4</item>
+    <item>2</item>
+    <item>1</item>
+    <item>1</item>
+    <item>3</item>
+    <item>2</item>
+    <item>1</item>
+    <item>6</item>
+    <item>1</item>
+    <item>2</item>
+    <item>5</item>
+  </integer-array>
+  <string-array name="title_album">
+    <item>Gần đây</item>
+    <item>Camera</item>
+    <item>Khuôn mặt</item>
+    <item>Ảnh chụp màn hình</item>
+    <item>Instagram</item>
+    <item>Tải xuống</item>
+  </string-array>
+  <integer-array name="item_album_count">
+    <item>1</item>
+    <item>97</item>
+    <item>1</item>
+    <item>1</item>
+    <item>4</item>
+    <item>7</item>
+  </integer-array>
+</resources>

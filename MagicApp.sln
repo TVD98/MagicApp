@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30503.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagicApp", "MagicApp\MagicApp.csproj", "{9C7AE14E-5C64-49EC-9E49-921A45EBCC8E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9C7AE14E-5C64-49EC-9E49-921A45EBCC8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C7AE14E-5C64-49EC-9E49-921A45EBCC8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C7AE14E-5C64-49EC-9E49-921A45EBCC8E}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{9C7AE14E-5C64-49EC-9E49-921A45EBCC8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C7AE14E-5C64-49EC-9E49-921A45EBCC8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C7AE14E-5C64-49EC-9E49-921A45EBCC8E}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {99A80726-DC8A-486E-936E-1C49ACF265A3}
+	EndGlobalSection
+EndGlobal

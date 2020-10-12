@@ -48,22 +48,22 @@ namespace MagicApp.Fragments
         private void InitData()
         {
             string json = Contrainst.GetData(Activity, Contrainst.KEY_NAME_COLLECTION);
-
-            //string json = Contrainst.GetData(Activity, Contrainst.KEY_NAME_DATA);
-            //if (!string.IsNullOrEmpty(json))
-            //{
-            //    Data obj = JsonConvert.DeserializeObject<Data>(json);
-            //    int index = datas.FindIndex(x => x.CompareTo(obj) == 0);
-            //    if (index >= 0)
-            //        datas[index] = obj;
-            //    else
-            //        datas.Add(obj);
-            //}
             if (!string.IsNullOrEmpty(json))
             {
                 datas = JsonConvert.DeserializeObject<List<Data>>(json);
             }
 
+            string data = Contrainst.GetData(Activity, Contrainst.KEY_NAME_DATA);
+            if (!string.IsNullOrEmpty(data))
+            {
+                Data obj = JsonConvert.DeserializeObject<Data>(data);
+                int index = datas.FindIndex(x => x.CompareTo(obj) == 0);
+                if (index >= 0)
+                    datas[index] = obj;
+                else
+                    datas.Add(obj);
+            }
+            
             datas.Sort();
             datas.Reverse();
             foreach (Data dt in datas)

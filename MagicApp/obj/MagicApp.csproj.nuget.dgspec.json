@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "G:\\Hoc Tap\\Xamarin\\MagicApp\\MagicApp\\MagicApp.csproj": {}
+    "F:\\Xamarin\\MagicApp\\MagicApp\\MagicApp.csproj": {}
   },
   "projects": {
-    "G:\\Hoc Tap\\Xamarin\\MagicApp\\MagicApp\\MagicApp.csproj": {
+    "F:\\Xamarin\\MagicApp\\MagicApp\\MagicApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\Hoc Tap\\Xamarin\\MagicApp\\MagicApp\\MagicApp.csproj",
+        "projectUniqueName": "F:\\Xamarin\\MagicApp\\MagicApp\\MagicApp.csproj",
         "projectName": "MagicApp",
-        "projectPath": "G:\\Hoc Tap\\Xamarin\\MagicApp\\MagicApp\\MagicApp.csproj",
-        "packagesPath": "C:\\Users\\This PC\\.nuget\\packages\\",
-        "outputPath": "G:\\Hoc Tap\\Xamarin\\MagicApp\\MagicApp\\obj\\",
+        "projectPath": "F:\\Xamarin\\MagicApp\\MagicApp\\MagicApp.csproj",
+        "packagesPath": "C:\\Users\\CUONG\\.nuget\\packages\\",
+        "outputPath": "F:\\Xamarin\\MagicApp\\MagicApp\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\This PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\CUONG\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],

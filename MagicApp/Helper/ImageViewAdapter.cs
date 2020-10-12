@@ -39,8 +39,15 @@ namespace MagicApp.Helper
             //ImageView imageView = new ImageView(context);
             PhotoView imageView = new PhotoView(context);
             imageView.SetScaleType(ImageView.ScaleType.FitCenter);
-            Glide.With(context).Load(items[position].url)
-                .Into(imageView);
+            if (string.IsNullOrEmpty(items[position].url)){
+                Glide.With(context).Load(items[position].imageId)
+                    .Into(imageView); 
+            }
+            else
+            {
+                Glide.With(context).Load(items[position].url)
+                    .Into(imageView);
+            }
             container.AddView(imageView);
             imageView.SetOnClickListener(this);
             return imageView;

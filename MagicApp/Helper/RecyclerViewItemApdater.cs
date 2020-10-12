@@ -42,11 +42,18 @@ namespace MagicApp.Helper
         public override void OnBindViewHolder(RecyclerView.ViewHolder holder, int position)
         {
             RecyclerViewItemHolder view = holder as RecyclerViewItemHolder;
-            Glide.With(context).Load(itemList[position].url)
-                .CenterCrop()
-                .Into(view.imageView);
+            if (string.IsNullOrEmpty(itemList[position].url))
+            {
+                Glide.With(context).Load(itemList[position].imageId)
+                    .Into(view.imageView);
+            }
+            else
+            {
+                Glide.With(context).Load(itemList[position].url)
+                    .Into(view.imageView);
+            }
             view.imageView.Click += delegate {
-                object[] datas = {itemList[position].url, view.imageView };
+                object[] datas = {itemList[position], view.imageView };
                 EventManager.Instance.Send(datas);
             };
         }

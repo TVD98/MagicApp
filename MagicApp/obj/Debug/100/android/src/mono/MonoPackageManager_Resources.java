@@ -2,6 +2,10 @@ package mono;
 public class MonoPackageManager_Resources {
 	public static String[] Assemblies = new String[]{
 		/* We need to ensure that "MagicApp.dll" comes first in this list. */
+		"MagicApp.dll",
+		"Newtonsoft.Json.dll",
+		"PhotoView.dll",
+		"Plugin.Media.dll",
 		"Xamarin.Android.Arch.Core.Common.dll",
 		"Xamarin.Android.Arch.Core.Runtime.dll",
 		"Xamarin.Android.Arch.Lifecycle.Common.dll",
@@ -9,6 +13,9 @@ public class MonoPackageManager_Resources {
 		"Xamarin.Android.Arch.Lifecycle.LiveData.dll",
 		"Xamarin.Android.Arch.Lifecycle.Runtime.dll",
 		"Xamarin.Android.Arch.Lifecycle.ViewModel.dll",
+		"Xamarin.Android.Glide.DiskLruCache.dll",
+		"Xamarin.Android.Glide.dll",
+		"Xamarin.Android.Glide.GifDecoder.dll",
 		"Xamarin.Android.Support.Animated.Vector.Drawable.dll",
 		"Xamarin.Android.Support.Annotations.dll",
 		"Xamarin.Android.Support.AsyncLayoutInflater.dll",
@@ -37,9 +44,11 @@ public class MonoPackageManager_Resources {
 		"Xamarin.Android.Support.Vector.Drawable.dll",
 		"Xamarin.Android.Support.VersionedParcelable.dll",
 		"Xamarin.Android.Support.ViewPager.dll",
+		"Xamarin.AndroidX.Activity.dll",
 		"Xamarin.AndroidX.Annotation.dll",
 		"Xamarin.AndroidX.AppCompat.AppCompatResources.dll",
 		"Xamarin.AndroidX.AppCompat.dll",
+		"Xamarin.AndroidX.AppCompat.Resources.dll",
 		"Xamarin.AndroidX.Arch.Core.Common.dll",
 		"Xamarin.AndroidX.Arch.Core.Runtime.dll",
 		"Xamarin.AndroidX.AsyncLayoutInflater.dll",
@@ -62,10 +71,13 @@ public class MonoPackageManager_Resources {
 		"Xamarin.AndroidX.Lifecycle.LiveData.dll",
 		"Xamarin.AndroidX.Lifecycle.Runtime.dll",
 		"Xamarin.AndroidX.Lifecycle.ViewModel.dll",
+		"Xamarin.AndroidX.Lifecycle.ViewModelSavedState.dll",
 		"Xamarin.AndroidX.Loader.dll",
 		"Xamarin.AndroidX.LocalBroadcastManager.dll",
+		"Xamarin.AndroidX.MultiDex.dll",
 		"Xamarin.AndroidX.Print.dll",
 		"Xamarin.AndroidX.RecyclerView.dll",
+		"Xamarin.AndroidX.SavedState.dll",
 		"Xamarin.AndroidX.SlidingPaneLayout.dll",
 		"Xamarin.AndroidX.SwipeRefreshLayout.dll",
 		"Xamarin.AndroidX.Transition.dll",
@@ -73,20 +85,10 @@ public class MonoPackageManager_Resources {
 		"Xamarin.AndroidX.VectorDrawable.dll",
 		"Xamarin.AndroidX.VersionedParcelable.dll",
 		"Xamarin.AndroidX.ViewPager.dll",
-		"Xamarin.Google.Android.Material.dll",
-		"Newtonsoft.Json.dll",
-		"PhotoView.dll",
-		"Plugin.Media.dll",
-		"Xamarin.Android.Glide.DiskLruCache.dll",
-		"Xamarin.Android.Glide.dll",
-		"Xamarin.Android.Glide.GifDecoder.dll",
-		"Xamarin.AndroidX.Activity.dll",
-		"Xamarin.AndroidX.Lifecycle.ViewModelSavedState.dll",
-		"Xamarin.AndroidX.SavedState.dll",
 		"Xamarin.Essentials.dll",
-		"MagicApp.dll",
+		"Xamarin.Google.Android.Material.dll",
 	};
 	public static String[] Dependencies = new String[]{
 	};
-	public static String ApiPackageName = null;
+	public static String ApiPackageName = "Mono.Android.Platform.ApiLevel_29";
 }

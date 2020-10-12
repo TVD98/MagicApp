@@ -8,7 +8,6 @@
   <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
   <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
   <application android:name="android.app.Application" android:allowBackup="true" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:debuggable="true" android:icon="@mipmap/ic_launcher" android:label="@string/app_name" android:roundIcon="@mipmap/ic_launcher_round" android:supportsRtl="true" android:theme="@style/AppTheme">
-    <activity android:name="crc646957603ea1820544.MediaPickerActivity" android:configChanges="orientation|screenSize|uiMode" />
     <activity android:name="crc64e46346dc0f84f3d5.MainActivity" android:label="@string/app_name" android:screenOrientation="portrait" android:theme="@style/AppTheme" />
     <receiver android:name="crc64fa28fabcd1b32771.SampleReceiver" android:enabled="true">
       <intent-filter>
@@ -24,6 +23,14 @@
       </intent-filter>
     </activity>
     <activity android:name="crc6472ce30d429a25100.UpLoadImagesActivity" android:label="UpLoadImagesActivity" />
+    <activity android:name="crc646957603ea1820544.MediaPickerActivity" android:configChanges="orientation|screenSize|uiMode" />
+    <service android:name="crc64396a3fe5f8138e3f.KeepAliveService" />
+    <receiver android:name="crc64a0e0a82d0db9a07d.BatteryBroadcastReceiver" android:enabled="true" android:exported="false" android:label="Essentials Battery Broadcast Receiver" />
+    <receiver android:name="crc64a0e0a82d0db9a07d.EnergySaverBroadcastReceiver" android:enabled="true" android:exported="false" android:label="Essentials Energy Saver Broadcast Receiver" />
+    <receiver android:name="crc64a0e0a82d0db9a07d.ConnectivityBroadcastReceiver" android:enabled="true" android:exported="false" android:label="Essentials Connectivity Broadcast Receiver" />
+    <provider android:name="xamarin.essentials.fileProvider" android:authorities="com.companyname.magicapp.fileProvider" android:exported="false" android:grantUriPermissions="true">
+      <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/xamarin_essentials_fileprovider_file_paths" />
+    </provider>
     <provider android:name="mono.MonoRuntimeProvider" android:authorities="com.companyname.magicapp.mono.MonoRuntimeProvider.__mono_init__" android:exported="false" android:initOrder="1999999999" />
     <!-- suppress ExportedReceiver -->
     <receiver android:name="mono.android.Seppuku">

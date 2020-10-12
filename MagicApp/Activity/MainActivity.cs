@@ -41,20 +41,14 @@ namespace MagicApp
            
         }
 
-        public override void OnBackPressed()
-        {
-            Log.Debug("tag", "MainBackPressed");
-            FinishAffinity();
-        }
-
         private void HandleImageClicked(object[] datas)
         {
-            string url = datas[0].ToString();
+            Item item = (Item)datas[0];
             View view = (View)datas[1];
 
             Intent intent = new Intent(this, typeof(ShowImageActivity));
             intent.PutExtra(ShowImageActivity.imageListCode, JsonConvert.SerializeObject(FragmentCollection.itemList.ToArray()));
-            intent.PutExtra(ShowImageActivity.imageCode, url);
+            intent.PutExtra(ShowImageActivity.imageCode, JsonConvert.SerializeObject(item));
             intent.AddFlags(ActivityFlags.ClearTop);
 
             Pair[] pairs = new Pair[1];

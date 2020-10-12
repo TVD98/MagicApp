@@ -28,7 +28,7 @@ namespace MagicApp.Activity
         public Android.Support.V4.App.FragmentManager fm;
 
         private Item[] itemList;
-        private string selectedImageUrl = "";
+        private Item selectedImage;
 
 
 
@@ -42,7 +42,7 @@ namespace MagicApp.Activity
 
             string json = Intent.GetStringExtra(imageListCode);
             itemList = JsonConvert.DeserializeObject<Item[]>(json);
-            selectedImageUrl = Intent.GetStringExtra(imageCode);
+            selectedImage = JsonConvert.DeserializeObject<Item>(Intent.GetStringExtra(imageCode));
 
             ImageViewAdapter adapter = new ImageViewAdapter(itemList, this);
             viewPager.Adapter = adapter;
@@ -61,11 +61,13 @@ namespace MagicApp.Activity
             if (frmLayout1.Visibility == ViewStates.Visible)
             {
                 frmLayout1.Visibility = ViewStates.Invisible;
+                viewPager.SetBackgroundResource(Resource.Color.black);
                 Window.DecorView.SystemUiVisibility = (StatusBarVisibility)SystemUiFlags.Fullscreen;
             }
             else
             {
                 frmLayout1.Visibility = ViewStates.Visible;
+                viewPager.SetBackgroundResource(Resource.Color.white);
                 Window.DecorView.SystemUiVisibility = (StatusBarVisibility)SystemUiFlags.Visible;
             }
         }
@@ -74,7 +76,9 @@ namespace MagicApp.Activity
         {
             for (int i = 0; i < itemList.Length; i++)
             {
-                if (itemList[i].url == selectedImageUrl)
+                if (itemList[i].url == selectedImage.url
+                    || (itemList[i].imageId == selectedImage.imageId
+                    && itemList[i].imageId != 0))
                     return i;
             }
             return 0;

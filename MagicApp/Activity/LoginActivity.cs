@@ -135,6 +135,7 @@ namespace MagicApp.Activity
             int card = int.Parse(password.Substring(4, 2));
             Data data = new Data(date);
             data.AddItem(new Item(Contrainst.GetImageCardId(card), date));
+            data.AddItem(new Item());
             Contrainst.SaveData(this, JsonConvert.SerializeObject(data), Contrainst.KEY_NAME_DATA);
             FinishAffinity();
         }

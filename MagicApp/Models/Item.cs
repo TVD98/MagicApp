@@ -11,12 +11,13 @@ namespace MagicApp.Helper
         {
             this.imageId = imageId;
             this.date = date;
+            this.url = "";
         }
 
         public Item()
         {
-            imageId = 0;
-            url = "";
+            this.imageId = 0;
+            this.url = "";
         }
     }
 }
